@@ -269,6 +269,11 @@
                 }
             });
         });
+
+        // FAB
+        $('.fab-container').on('click', function() {
+            $(this).toggleClass('active');
+        });
     });
 
 })(window.jQuery);
